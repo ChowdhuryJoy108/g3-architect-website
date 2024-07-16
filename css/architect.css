@@ -281,6 +281,10 @@ nav ul li:hover{
         text-align: center;
     }
 
+    .facts-title{
+        font-size: 2rem;
+    }
+
     .milestones{
         gap: 20px;
     }
