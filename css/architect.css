@@ -222,4 +222,9 @@ nav ul li:hover{
         max-width: 100%;
     }
 
+    .primary-btn{
+        padding: 15px 20px;
+        font-size: 1.12rem;
+    }
+
 }
