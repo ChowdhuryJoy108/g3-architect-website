@@ -16,6 +16,17 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
+
+footer{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* shared Styles */
 
 section{
@@ -188,6 +199,7 @@ nav ul li:hover{
 }
 
 .milestones{
+    max-width:1440px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -253,6 +265,12 @@ nav ul li:hover{
 }
 
 
+/* footer style  */
+
+.footer-text{
+    font-size: 1.2rem;
+}
+
 
 /* responsive Styles here */
 @media screen and (max-width: 576px){
@@ -289,7 +307,7 @@ nav ul li:hover{
 
     .features-content{
         text-align: center;
-        padding: 5px;
+        padding: 10px;
     }
     .feature-title{
         font-size: 2rem;
@@ -326,7 +344,10 @@ nav ul li:hover{
         width: 100%;
         height: auto;
     }
-
+    
+    .sponsors{
+        padding: 10px;
+    }
     .sponsors h1{
         font-size: 2rem;
         margin-bottom: 0 0 20px 0 ;
@@ -337,4 +358,86 @@ nav ul li:hover{
         gap: 40px;
     }
 
+    .footer-text{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width:580px) and (max-width:992px) {
+    /* features responsive for tablets */
+    .features{
+        margin-top: 130px;
+        flex-direction: column;
+    }
+
+    .features-content{
+        text-align: center;
+        padding: 20px;
+    }
+    .feature-title{
+        font-size: 2.4rem;
+    }
+    .feature-description{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        margin-bottom: 40px;
+    }
+    
+    #conditional-h1{
+        display: block;
+    }
+    .teams{
+        gap: 100px;
+    }
+    .teams img{
+        max-width: 100%;
+    }
+
+    .primary-btn{
+        padding: 18px 20px;
+        font-size: 1.2rem;
+    }
+
+    .facts-content{
+        margin: 0 auto;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .facts-title{
+        font-size: 2.4rem;
+    }
+
+    .milestones{
+        max-width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        justify-items: center;
+    }
+    
+    .sponsors h1{
+        font-size: 2.4rem;
+        margin-bottom: 0 0 20px 0 ;
+        font-weight: 800;
+    }
+
+    .sponsors p{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .sponsors-list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        justify-content: center;
+
+    }
+
+    .footer-text{
+        font-size: 1.2rem;
+    }
 }
