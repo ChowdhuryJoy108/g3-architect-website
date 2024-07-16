@@ -99,6 +99,10 @@ nav ul li a{
     color: black;
 }
 
+nav ul li:hover{
+    border-bottom: 2px solid #FF900E;
+}
+
 /* header banner styles */
 
 .banner{
@@ -137,6 +141,7 @@ nav ul li a{
 
 .feature-description{
     font-size: 1.12rem;
+    line-height: 26px;
 }
 
 .features{
@@ -169,7 +174,7 @@ nav ul li a{
 /* responsive Styles here */
 @media screen and (max-width: 576px){
     header{
-        height: 1110px;
+        height: 1210px;
         margin-bottom: 50px;
     }
     .display-flex{
