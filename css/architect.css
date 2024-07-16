@@ -169,6 +169,55 @@ nav ul li:hover{
 }
 
 
+/* facts Section Styles */
+.facts{
+    margin-top: 130px;
+}
+.facts-content{
+    max-width: 540px;
+    margin-bottom: 100px;
+}
+
+.facts-title{
+    font-size: 2.8rem;
+    font-weight:800;
+}
+
+.facts-description{
+    line-height: 1.6rem;
+}
+
+.milestones{
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.milestone-card{
+    max-width: 240px;
+    height: auto;
+    border: 1px solid #FF900E;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.milestone-card img, h3, h6{
+   margin: 0;
+   padding: 5px;
+}
+
+.milestone-card > h3{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.milestone-card > h6{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
 
 
 /* responsive Styles here */
@@ -205,6 +254,7 @@ nav ul li:hover{
     }
 
     .features-content{
+        text-align: center;
         padding: 5px;
     }
     .feature-title{
@@ -225,6 +275,17 @@ nav ul li:hover{
     .primary-btn{
         padding: 15px 20px;
         font-size: 1.12rem;
+    }
+
+    .facts-content{
+        text-align: center;
+    }
+
+    .milestones{
+        gap: 20px;
+    }
+    .milestone-card{
+        width: 100%;
     }
 
 }
