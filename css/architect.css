@@ -1,0 +1,138 @@
+
+
+/* google fonts imported */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-normal{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+}
+
+/* shared Styles */
+
+.display-flex{
+    display: flex;
+}
+
+/* dark 02 */
+.color-gray{
+    color: #424242;
+}
+
+/* dark 03 */
+.color-light-gray{
+    color: #727272;
+}
+
+/* dark 01 */
+.color-black{
+    color:#000000;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: #FF900E;
+}
+
+.primary-btn{
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* header styles */
+
+header{
+    max-width: 1920px;
+    height: 1382px;
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-bottom: 50px;
+}
+
+/* nav styles */
+.brand{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    gap: 40px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    font-weight: 500;
+    font-size: 1.12rem;
+    text-decoration: none;
+    color: black;
+}
+
+/* header banner styles */
+
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    margin-top: 116px;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    font-size: 1.12rem;
+    line-height: 26px;
+}
+
+.banner-image img{
+   max-width: 100%;
+}
+
+
+
+
+
+/* responsive Styles here */
+@media screen and (max-width: 576px){
+    header{
+        height: 1110px;
+        margin-bottom: 50px;
+    }
+    .display-flex{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 2.8rem;
+        font-weight: 800;
+    }
+    nav ul li a{
+        font-weight: 600;
+        font-size: 2rem;
+        opacity: 0.7;
+    }
+}
